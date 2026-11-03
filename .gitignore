@@ -1,0 +1,15 @@
+# Author: Salman | Version: 1.2.0
+# Description: Keep secrets, generated packages and local files out of the public repository.
+.env
+.env.*
+!.env.example
+wp-config.php
+*.sql
+*.sql.gz
+*.log
+*.zip
+.DS_Store
+__pycache__/
+*.pyc
+vendor/
+node_modules/
